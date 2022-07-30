@@ -12,11 +12,18 @@ export default function Details() {
                     <p className="website">farahmassuh.website</p>
                 </div>
                 <div className="links">
-                    <a href="#" className="first-link">
+                    <a
+                        href="mailto: massuhcodes@gmail.com?subject=Hey, Farah!"
+                        className="first-link"
+                    >
                         <img src={email_icon} />
                         <span>Email</span>
                     </a>
-                    <a href="#" className="second-link">
+                    <a
+                        href="https://www.linkedin.com/in/farah-massuh-6667b5230/"
+                        target="_blank"
+                        className="second-link"
+                    >
                         <img src={linkedin_icon} />
                         <span>LinkedIn</span>
                     </a>

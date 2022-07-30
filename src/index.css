@@ -96,14 +96,12 @@ Details: links
 .links {
     display: flex;
     justify-content: space-between;
-    /* margin-top: 15px; */
-    /* border: 1px solid blue; */
 }
 
 .links > a {
     text-decoration: none;
     width: 47%;
-    max-width: 220px;
+    max-width: 13.75em;
 }
 
 .first-link,
@@ -111,16 +109,30 @@ Details: links
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
-    padding: 10px 50px;
-    border-radius: 6px;
+    border-radius: 0.375em;
+    font-size: 1rem;
+}
+
+.first-link {
+    background-color: #ff9f9f;
+    padding: 0.625em 3.3125em;
     color: black;
-    font-size: 16px;
+}
+.first-link:hover,
+.first-link:focus,
+.first-link:active {
+    background-color: #ffbdbd;
 }
 
 .second-link {
     color: white;
-    background-color: #5093e2;
+    background-color: #19196d;
+    padding: 0.625em 2.5em;
+}
+.second-link:hover,
+.second-link:focus,
+.second-link:active {
+    background-color: #29299d;
 }
 
 /*------------------------
@@ -231,9 +243,12 @@ Media Queries
         width: 100%;
     }
 
-    .first-link,
-    .second-link {
+    .first-link {
         padding: 5px 40px;
+    }
+
+    .second-link {
+        padding: 5px 30px;
     }
 
     .links > a {
