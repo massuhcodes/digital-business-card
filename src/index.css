@@ -118,14 +118,14 @@ Details: links
 }
 
 .first-link {
-    background-color: #ff9f9f;
+    background-color: #f3bf99;
     padding: 0.625em 3.3125em;
     color: black;
 }
 .first-link:hover,
 .first-link:focus,
 .first-link:active {
-    background-color: #ffbdbd;
+    background-color: #e9ccb6;
 }
 
 .second-link {
