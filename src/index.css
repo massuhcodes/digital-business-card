@@ -24,6 +24,10 @@ App - Main
     overflow: hidden;
 }
 
+#root {
+    box-shadow: 2px 10px 7px #0e0f15, -2px 10px 7px #0e0f15;
+}
+
 .app {
     background-color: #1a1b21;
     display: flex;
